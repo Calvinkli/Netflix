@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <style>
+        form{
+            padding: 15px 10px;
+            border: 1px solid #4e4b4b;
+            border-radius: 6px;
+            text-align: center;
+            box-shadow: 2px 2px #797878;
+        }
+        input{
+            width: 250px;
+            height: 35px;
+            border-radius: 4px;
+            padding: 2px 6px;
+            margin-bottom: 10px;
+        }
+        ::placeholder{
+            font-style: italic;
+            font-size: 14px;
+        }
+        button{
+            width: 100px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            background-color: black;
+        }
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #fff;
+        }
+    </style>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <h1>LOG IN</h1>
+    <form action="anything.php">
+        <div>
+            <label for="Username">USERNAME: </label>
+            <input type="text" placeholder="Your Username">
+        </div>
+        <div>
+            <label for="Email address">EMAIL: </label>
+            <input type="email" placeholder="Your Email address" required>
+        </div>
+        <div>
+            <label for="password">PASSWORD: </label>
+            <input type="password" placeholder="Your Password">
+        </div>
+        <button>
+            <a href="#">Log In</a>
+        </button>
+    </form>
+</body>
+</html>
